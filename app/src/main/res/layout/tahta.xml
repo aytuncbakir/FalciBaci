@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/renk27"
+    tools:context="com.sivamalabrothers.falcibaci.Tahta">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/renk27"
+            android:layout_margin="3dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Uyarı!"/>
+
+        <Button
+            android:id="@+id/uyari"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textColor="@color/renk27"
+            android:background="@drawable/buton_selektor"
+            android:layout_margin="3dp"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text=" ! " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/renk27"
+            android:layout_margin="3dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Fal nasıl bakılır?"/>
+
+        <Button
+            android:id="@+id/nasil"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textColor="@color/renk27"
+            android:background="@drawable/buton_selektor"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:text=" ? " />
+
+
+        <Button
+            android:id="@+id/tamam"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="3dp"
+            android:textColor="@color/renk27"
+            android:background="@drawable/buton_selektor1"
+         />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/reklam_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/reklam_layout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/reklam_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>
